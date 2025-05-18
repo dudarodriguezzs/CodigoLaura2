@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 20px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+  }
+  
+  .red {
+    background-color: salmon;
+  }
+  
+  .blue {
+    background-color: skyblue;
+  }
+  
+  .green {
+    background-color: palegreen;
+  }
+  
+  .yellow {
+    background-color: rgb(238, 238, 178);
+  }
+  
